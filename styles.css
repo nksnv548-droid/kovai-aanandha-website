@@ -427,3 +427,35 @@ button{font-family:inherit;background:none;border:none;cursor:pointer;color:inhe
    ========================================================================== */
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease), transform .8s var(--ease);}
 .reveal.in-view{opacity:1;transform:translateY(0);}
+
+/* ===== Valuable Partners ===== */
+
+.partners-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:24px;
+    margin-top:40px;
+}
+
+.partner-box{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.partner-box:hover{
+    transform:translateY(-8px);
+}
+
+.partner-box h3{
+    color:#16351F;
+    margin-bottom:15px;
+}
+
+.partner-box p{
+    color:#555;
+    line-height:1.7;
+}
